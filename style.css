@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font: normal Arial;
+}
+
+body {
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1501854140801-50d01698950b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxNDU2MjIzNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+}
+.caixa-maior{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+    width: 95%;
+    max-width: 450px;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color:#7c7c7c2b ;
+    color: white;
+    width: calc(100% - 60px);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color:#7c7c7c2b ;
+    cursor: pointer;
+    color: white;
+    float: right;
+
+}
+
+.img-busca{
+    width: 20px;
+}
+.caixa-media{
+    margin-top: 30px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.temp{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.txt{
+    margin-left: 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.umidade{
+    margin-top: 20px;
+    font-size: 20px;
+}
